@@ -1,0 +1,7 @@
+name: cookiecutter-personal
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter
+prefix: C:\Users\user\miniconda3\envs\cookiecutter-personal
