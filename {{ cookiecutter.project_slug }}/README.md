@@ -61,6 +61,4 @@ Please read install.md for details on how to set up this project.
 
 ## Credits
 
-![jvelezmagic](https://github.com/jvelezmagic/cookiecutter-conda-data-science)
-
-![Proyecto Modelo](https://github.com/platzi/curso-entorno-avanzado-ds)
+[GitHub: jvelezmagic](https://github.com/jvelezmagic/cookiecutter-conda-data-science)

@@ -1,6 +1,6 @@
 # Plantilla de Cookiecutter
 
-Esta es una plantilla de cookiecutter para Data Science desarrollado en ![Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) en ![platzi](https://platzi.com)
+Esta es una plantilla de cookiecutter para Data Science desarrollado en [Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) en ![platzi](https://platzi.com)
 
 
 ## Requerimientos
@@ -34,11 +34,11 @@ Luego vas a la carpeta {{ cookiecutter.project_slug }}:
 
 ## Créditos
 
-Al profe de Platzi ![Jesús Vélez Santiago](https://platzi.com/profes/jvelezmagic/) ![con su github jvelezmagic](https://github.com/jvelezmagic/cookiecutter-conda-data-science) 
+Al profe de Platzi [Jesús Vélez Santiago](https://platzi.com/profes/jvelezmagic/) [con su github jvelezmagic](https://github.com/jvelezmagic/cookiecutter-conda-data-science) 
 
 Su proyecto está fuertemente influenciado por [drivendata's Cookiecutter Data Science](https://github.com/drivendata/cookiecutter-data-science), [andfanilo's Cookiecutter for Kaggle Conda projects](https://github.com/andfanilo/cookiecutter-kaggle), y el paquete de Julia [DrWatson](https://juliadynamics.github.io/DrWatson.jl/dev/).
 
-Otros enlaces que ayudaron a dar forma a este cortador de galletas cookiecutter :
+Otros enlaces que ayudaron a dar forma a este cookiecutter:
 
 - [Write less terrible code with Jupyter Notebook](https://blog.godatadriven.com/write-less-terrible-notebook-code)
 - [Cookiecutter DataScience Opinions](http://drivendata.github.io/cookiecutter-data-science/#opinions)
