@@ -1,13 +1,15 @@
 {
-    "project_title": "Cookiecutter Personal",
+    "project_title": "Pon el nombre del proyecto aqui :v",
     "project_slug": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
+    "project_module_name": "{{ cookiecutter.project_title.lower().replace(' ', '_').replace('-', '_') }}",
     "project_author_name": "Your name (or your organization/company/team)",
     "project_author_email": "Yout email (or your organization/company/team)",
     "project_description": "A short description of the project.",
+    "project_open_source_license": ["No license file", "MIT", "BSD-3-Clause"],
     "project_packages": [
       "All",
       "Minimal"
     ],
-    "python_version": "3.7",
+    "python_version": "3.9",
     "project_version": "0.1.0"
   }
