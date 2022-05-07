@@ -1,6 +1,6 @@
 # Plantilla de Cookiecutter
 
-Esta es una plantilla de cookiecutter para Data Science desarrollado en [Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) en [Platzi](https://platzi.com)
+Esta es una plantilla de cookiecutter para Data Science desarrollado en [el Curso de Configuración Profesional de Entorno de Trabajo para Ciencia de Datos](https://platzi.com/cursos/entorno-ciencia-datos/) en [Platzi](https://platzi.com)
 
 
 ## Requerimientos
@@ -28,7 +28,7 @@ Puedes crear en tu entorno base u otro entorno que instalaste cookiecutter
 cookiecutter https://github.com/luceldasilva/cookiecutter-personal
 ```
 
-Después instalar el entorno de trabajo con [este environment.yml]({{ cookiecutter.project_slug }}/environment.yml), y leer el archivo [README.md]({{ cookiecutter.project_slug }}/README.md)
+Después instalar el entorno de trabajo con [este environment.yml](https://github.com/luceldasilva/cookiecutter-personal/blob/main/%7B%7B%20cookiecutter.project_slug%20%7D%7D/environment.yml), y leer su archivo [README.md](https://github.com/luceldasilva/cookiecutter-personal/blob/main/%7B%7B%20cookiecutter.project_slug%20%7D%7D/README.md)
 
 ## Créditos
 
