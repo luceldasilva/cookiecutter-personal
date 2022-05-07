@@ -28,7 +28,7 @@ Puedes crear en tu entorno base u otro entorno que instalaste cookiecutter
 cookiecutter https://github.com/luceldasilva/cookiecutter-personal
 ```
 
-Después instalar el entorno de trabajo con [este environment.yml]({{ cookiecutter.project_slug }}\environment.yml), y leer el archivo [README.md]({{ cookiecutter.project_slug }}\README.md)
+Después instalar el entorno de trabajo con [este environment.yml]({{ cookiecutter.project_slug }}/environment.yml), y leer el archivo [README.md]({{ cookiecutter.project_slug }}/README.md)
 
 ## Créditos
 
