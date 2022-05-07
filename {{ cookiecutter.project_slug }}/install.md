@@ -1,4 +1,4 @@
-# {{ cookiecutter.project_name }} guide installation
+# {{ cookiecutter.project_title }} guide installation
 
 ## Prerequisites
 
