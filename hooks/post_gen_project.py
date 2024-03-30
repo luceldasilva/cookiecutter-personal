@@ -1,5 +1,5 @@
-# print('nos vemos bye :v')
 import subprocess
+
 
 MESSAGE_COLOR = "\x1b[34m"
 RESET_ALL = "\x1b[0m"
@@ -11,5 +11,7 @@ subprocess.call(['git', 'init'])
 subprocess.call(['git', 'branch', '-M', 'main'])
 subprocess.call(['git', 'add', '*'])
 subprocess.call(['git', 'commit', '-m', 'Initial commit'])
+subprocess.call(['git', 'tag', "{{ cookiecutter.project_version }}")
+
 
 print(f"{MESSAGE_COLOR}The beginning of your destiny is defined now! Create and have fun!{RESET_ALL}")
