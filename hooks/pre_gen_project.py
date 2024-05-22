@@ -4,8 +4,8 @@ import sys
 
 project_slug = "{{ cookiecutter.project_slug }}"
 
-ERROR_COLOR = "\x1b[31m"
-MESSAGE_COLOR = "\x1b[34m"
+ERROR_COLOR = "\x1b[41m"
+MESSAGE_COLOR = "\x1b[44m"
 RESET_ALL = "\x1b[0m"
 
 if project_slug.startswith("x"):

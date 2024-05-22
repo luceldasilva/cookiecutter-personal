@@ -1,7 +1,7 @@
 import subprocess
 
 
-MESSAGE_COLOR = "\x1b[34m"
+MESSAGE_COLOR = "\x1b[44m"
 RESET_ALL = "\x1b[0m"
 
 print(f"{MESSAGE_COLOR}Almost done!")
