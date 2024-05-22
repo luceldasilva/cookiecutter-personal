@@ -1,8 +1,11 @@
+from pre_gen_project import project_slug
 import subprocess
 
 
 MESSAGE_COLOR = "\x1b[44m"
 YML_COLOR = "\x1b[38;5;190m	"
+OS_COLOR = "\x1b[42m"
+INFO_COLOR = "\x1b[38;5;219m"
 RESET_ALL = "\x1b[0m"
 
 print(f"{MESSAGE_COLOR}Almost done!")
@@ -14,8 +17,8 @@ subprocess.call(['git', 'add', '*'])
 subprocess.call(['git', 'commit', '-m', 'Initial commit'])
 subprocess.call(['git', 'tag', "{{ cookiecutter.project_version }}"])
 
-
-print(f"{MESSAGE_COLOR}The beginning of your destiny is defined now! Create and have fun!{RESET_ALL}")
-
-print("Now that we are in the project, copy and paste into the terminal to install the dependencies. If you prefer, you can use mamba instead of conda.")
+print(f"{INFO_COLOR}Please enter the project folder with this command.{RESET_ALL}")
+print(f"{OS_COLOR}cd {project_slug}{RESET_ALL}")
+print(f"{INFO_COLOR}And then, copy and paste into the terminal to install the dependencies. If you prefer, you can use mamba instead of conda.{RESET_ALL}")
 print(f"{YML_COLOR}conda env create --file environment.yml{RESET_ALL}")
+print(f"{MESSAGE_COLOR}The beginning of your destiny is defined now! Create and have fun!{RESET_ALL}")
