@@ -6,19 +6,21 @@ channels:
   - conda-forge
   - defaults
 dependencies:
+  - python={{ cookiecutter.python_version }}
   - black
   - invoke
   - gh
   - pip
   {% if cookiecutter.project_packages == "All" -%}
-# Download NodeJS and Quarto
-# https://nodejs.org/en/download/package-manager
-# https://quarto.org/docs/download/
-  - nodejs
   - jupyterlab
-  - jupyterlab-fonts
-  - jupyterlab-quarto
-  - catppuccin-jupyterlab
+  - pip:
+      # Download NodeJS and Quarto
+      # https://nodejs.org/en/download/package-manager
+      # https://quarto.org/docs/download/
+      - nodejs
+      - jupyterlab-fonts
+      - jupyterlab-quarto
+      - catppuccin-jupyterlab
   {% endif -%}
   - jupyter
   {% if cookiecutter.project_packages == "All" -%}
@@ -43,10 +45,6 @@ dependencies:
   {% endif -%}
   - pyprojroot
   {% if cookiecutter.project_packages == "All" -%}
-  - pyspark
-  {% endif -%}
-  - python={{ cookiecutter.python_version }}
-  {% if cookiecutter.project_packages == "All" -%}
   - python-dotenv
   - scikit-learn
   {% endif -%}
@@ -54,4 +52,5 @@ dependencies:
   {% if cookiecutter.project_packages == "All" -%}
   - statsmodels
   - tensorflow
+  - pyspark
   {% endif -%}
