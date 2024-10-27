@@ -14,7 +14,7 @@ print(f"Initializing a git repository...{RESET_ALL}")
 subprocess.call(['git', 'init'])
 subprocess.call(['git', 'branch', '-M', 'main'])
 subprocess.call(['git', 'add', '*'])
-subprocess.call(['git', 'commit', '-m', 'Initial commit'])
+subprocess.call(['git', 'commit', '-m', '(init) 🎉 Begin a project'])
 subprocess.call(['git', 'tag', "{{ cookiecutter.project_version }}"])
 
 print(f"{INFO_COLOR}Please enter the project folder with this command.{RESET_ALL}")
