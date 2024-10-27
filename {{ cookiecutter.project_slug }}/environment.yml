@@ -8,8 +8,19 @@ channels:
 dependencies:
   - black
   - invoke
-  - jupyter
+  - gh
+  - pip
+  {% if cookiecutter.project_packages == "All" -%}
+# Download NodeJS and Quarto
+# https://nodejs.org/en/download/package-manager
+# https://quarto.org/docs/download/
+  - nodejs
   - jupyterlab
+  - jupyterlab-fonts
+  - jupyterlab-quarto
+  - catppuccin-jupyterlab
+  {% endif -%}
+  - jupyter
   {% if cookiecutter.project_packages == "All" -%}
   - keras
   - lightgbm
@@ -25,7 +36,6 @@ dependencies:
   - pandas-flavor
   - pandas-profiling
   {% endif -%}
-  - pip
   - plotly
   - pyjanitor
   {% if cookiecutter.project_packages == "All" -%}
